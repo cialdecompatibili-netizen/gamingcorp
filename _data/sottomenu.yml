@@ -32,54 +32,13 @@
 # Documentazione del funzionamento: commento in testa a _includes/masthead.html.
 # =====================================================================================
 
-Tour:
-  - title: "Tutti i tour"
-    url: /tour/
+Giochi:
+  - title: "Tutti i giochi"
+    url: /giochi/
   - divider: true
-  - title: "Gite guidate in giornata"
-    url: /tour/gite-guidate/
-  - title: "Weekend e viaggi guidati"
-    url: /tour/weekend-guidati/
-  - title: "Neve e inverno"
-    url: /tour/neve-inverno/
-  - title: "Natale, mercatini e feste"
-    url: /tour/natale-capodanno/
-  - title: "Vino e sapori del Lazio"
-    url: /tour/vino-sapori/
-  - title: "Food tour e corsi di cucina"
-    url: /tour/food-cucina/
-  - title: "Mare, barca e isole"
-    url: /tour/mare-barca/
-  - title: "Roma di notte"
-    url: /tour/roma-di-notte/
-  - title: "Roma: tour guidati a piedi"
-    url: /tour/roma-tour-guidati/
-  - title: "Bici, natura e trekking"
-    url: /tour/bici-natura/
-  - title: "Famiglie e bambini"
-    url: /tour/famiglie/
-  - title: "Terme e benessere"
-    url: /tour/terme-benessere/
-  - title: "Outlet e shopping"
-    url: /tour/outlet-shopping/
-  - title: "Guide e itinerari digitali"
-    url: /tour/guide-digitali/
-
-Su misura:
-  - title: "Preventivo per gruppi"
-    url: /gruppi-e-aziende/
-  - divider: true
-  - title: "Tour privati"
-    url: /tour/tour-privati/
-  - title: "Da Civitavecchia per crocieristi"
-    url: /tour/crociere/
-  - title: "Gruppi, scuole e aziende"
-    url: /tour/gruppi-scuole-aziende/
-  - title: "Pellegrinaggi e turismo religioso"
-    url: /tour/pellegrinaggi/
-  - title: "Gite per la terza età"
-    url: /tour/terza-eta/
-  - title: "Eventi, concerti e feste"
-    url: /tour/eventi-concerti/
-  - title: "Transfer e noleggio pullman"
-    url: /tour/transfer-noleggio/
+  - title: "Orbit Run (Online)"
+    url: /giochi/orbit-run/
+  - title: "Pixel Harvest (Android)"
+    url: /giochi/pixel-harvest/
+  - title: "Neon Circuit (PC)"
+    url: /giochi/neon-circuit/

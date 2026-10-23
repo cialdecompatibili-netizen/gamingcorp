@@ -2,23 +2,28 @@
 layout: single
 title: "Chi siamo"
 permalink: /chi-siamo/
-description: "Nomentum Viaggi nasce a Mentana, a 25 km da Roma: gite, tour e weekend per scoprire Roma, il Lazio e le regioni vicine."
+description: "GamingCorp è uno studio indipendente di sviluppo giochi: i giochi che pubblichiamo li sviluppiamo noi."
 ref: azienda
 author_profile: false
 ---
 
-Nomentum Viaggi nasce a **Mentana**, l'antica *Nomentum*, a circa 25 km da Roma. È una posizione comoda: in poco tempo si raggiungono Roma, i borghi della Tuscia, i Castelli Romani, la montagna e il mare.
+GamingCorp è uno **studio indipendente di sviluppo giochi**. Non rivendiamo giochi di altri e non facciamo merchandising: i giochi che trovi qui li progettiamo, li programmiamo e li pubblichiamo noi.
 
-Organizziamo gite in giornata, weekend, giornate sulla neve, tour del vino, serate a Roma e viaggi per gruppi, scuole e aziende, con guide, autisti e strutture partner.
+## Cosa facciamo
 
-## Il nostro modo di lavorare
+- **Giochi per browser**, da giocare subito dal sito, da telefono o da computer.
+- **Giochi per Android**, gratuiti da scaricare, con pubblicità opzionale e acquisti facoltativi.
+- **Giochi per PC**, a pagamento, con acquisto una tantum e nessuna pubblicità.
 
-- **Pre-iscrizione senza pagamento**: si parte quando il gruppo è pronto.
-- **Partenze vicine a casa**: i punti di salita si scelgono tra gli iscritti.
-- **Programmi chiari**: ogni scheda dice cosa è incluso e cosa no.
+## Come lavoriamo
 
-## Il network Nomentum
+- **Piccoli giochi, finiti bene**: meglio uno semplice e rifinito che uno enorme a metà.
+- **Prima il prototipo online**, poi Android e PC quando il gioco regge.
+- **Trasparenza sullo stato**: ogni gioco indica se è un prototipo, in sviluppo o uscito. Oggi nessun gioco è ancora uscito.
+- **Contenuti originali**: testi, grafica, musica e personaggi sono nostri o con licenza.
 
-Chi viene da fuori può dormire a [Villa Nomentum](https://cialdecompatibili-netizen.github.io/villanomentum/), chi si innamora della zona può guardare [Immobiliare Nomentum](https://cialdecompatibili-netizen.github.io/nomentumimmobiliare/), e chi arriva dall'estero trova [Nomentum Travel](https://cialdecompatibili-netizen.github.io/nomentumtravel/), il sito in inglese.
+## Come ci sosteniamo
 
-[Scrivici su WhatsApp]({% if site.whatsapp != "" %}https://wa.me/{{ site.whatsapp }}{% else %}#{% endif %}){: .btn .btn--primary} [Modulo contatti]({{ '/contatti/' | relative_url }}){: .btn .btn--inverse}
+Alcuni giochi sono gratuiti con pubblicità sempre opzionale, altri si comprano una volta sola, altri ancora hanno extra facoltativi come colonne sonore, nuove piste o un pass stagionale. Ogni gioco spiega il suo modello nella propria scheda.
+
+[Vedi i giochi]({{ '/giochi/' | relative_url }}){: .btn .btn--primary} [Scrivici]({{ '/contatti/' | relative_url }}){: .btn .btn--inverse}

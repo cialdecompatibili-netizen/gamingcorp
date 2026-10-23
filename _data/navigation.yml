@@ -1,14 +1,12 @@
 main:
   - title: "Home"
     url: /
+  - title: "Giochi"
+    url: /giochi/
   - title: "Negozio"
     url: /negozio/
-  - title: "Tour"
-    url: /tour/
-  - title: "Su misura"
-    url: /gruppi-e-aziende/
-  - title: "Come funziona"
-    url: /come-funziona/
+  - title: "Journal"
+    url: /blog/
   - title: "Chi siamo"
     url: /chi-siamo/
   - title: "Contatti"

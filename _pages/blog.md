@@ -1,7 +1,7 @@
 ---
 ref: blog
 layout: single
-title: Guide di viaggio
+title: Journal
 permalink: /blog/
 author_profile: false
 classes: wide

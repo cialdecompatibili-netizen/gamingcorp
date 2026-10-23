@@ -3,10 +3,10 @@ locale: "it"
 default_lang: it
 languages: [it]
 
-brand: "Nomentum Viaggi"
+brand: "GamingCorp"
 related_posts: 3
 email: ""
-description: "Nomentum Viaggi: gite in giornata, weekend, neve, vino e sapori, Roma di notte e tour per gruppi da Mentana, Roma e tutto il Lazio."
+description: "GamingCorp: studio indipendente di sviluppo giochi. Giochi nostri, sviluppati da noi, per browser, Android e PC."
 minimal_mistakes_skin: default
 search: true
 
@@ -41,9 +41,6 @@ collections:
   progetti:
     output: true
     permalink: /progetti/:name/
-  tour:
-    output: true
-    permalink: /tour/:name/
 
 include:
   - _pages
@@ -116,13 +113,6 @@ defaults:
     values:
       layout: single
       author_profile: false
-  - scope:
-      path: ""
-      type: tour
-    values:
-      layout: single
-      author_profile: false
-      share: true
 
 category_archive:
   type: liquid
