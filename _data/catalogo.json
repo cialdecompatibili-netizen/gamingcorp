@@ -1,0 +1,142 @@
+{
+  "_nota": "Catalogo GamingCorp (DEMO SHOP, pre-ordine, nessun pagamento). Prezzi in centesimi. Fonte UNICA di /negozio/ e delle pagine prodotto. L'id categoria e' riservato.",
+  "categorie": [
+    {
+      "nome": "Handheld",
+      "id": "handheld",
+      "icona": ""
+    },
+    {
+      "nome": "Controller",
+      "id": "controller",
+      "icona": ""
+    },
+    {
+      "nome": "Accessori",
+      "id": "accessori",
+      "icona": ""
+    }
+  ],
+  "prodotti": [
+    {
+      "tipo": "fisico",
+      "id": "vortex-pro",
+      "nome": "Vortex Pro – Console portatile OLED 7\"",
+      "categoria": "handheld",
+      "prezzo_centesimi": 54900,
+      "descrizione": "Schermo OLED 7\" 120 Hz, 16 GB RAM, 512 GB SSD, 3 ore di gioco reali.",
+      "descrizione_completa": "Console portatile con schermo OLED 7\" a 120 Hz, 16 GB di RAM e SSD da 512 GB. Stick a effetto Hall senza drift, grilletti regolabili, ventola silenziosa. Compatibile con i principali store PC.",
+      "immagine": "",
+      "icona": "🎮",
+      "visibile": true
+    },
+    {
+      "tipo": "fisico",
+      "id": "vortex-lite",
+      "nome": "Vortex Lite – Console portatile 6\"",
+      "categoria": "handheld",
+      "prezzo_centesimi": 32900,
+      "descrizione": "La portatile leggera: schermo 6\" LCD, 8 GB RAM, 256 GB, sotto i 550 g.",
+      "descrizione_completa": "Console portatile da 550 g con schermo LCD 6\" a 90 Hz, 8 GB di RAM e 256 GB di memoria espandibile. Pensata per i giochi indie, il retrogaming e il cloud gaming.",
+      "immagine": "",
+      "icona": "🕹️",
+      "visibile": true
+    },
+    {
+      "tipo": "fisico",
+      "id": "dock-vortex",
+      "nome": "Dock Vortex – Base TV 4K",
+      "categoria": "accessori",
+      "prezzo_centesimi": 7900,
+      "descrizione": "Dock con HDMI 2.1 4K 60, USB-C pass-through e 2 porte USB-A.",
+      "descrizione_completa": "Base di ricarica e uscita TV per le console Vortex: HDMI 2.1 fino a 4K 60 Hz, ricarica pass-through da 65 W, 2 USB-A per controller e tastiera.",
+      "immagine": "",
+      "icona": "📺",
+      "visibile": true
+    },
+    {
+      "tipo": "fisico",
+      "id": "nova",
+      "nome": "Nova – Controller wireless a effetto Hall",
+      "categoria": "controller",
+      "prezzo_centesimi": 5900,
+      "descrizione": "Stick e grilletti a effetto Hall: zero drift, 30 ore di batteria.",
+      "descrizione_completa": "Controller wireless a effetto Hall, stick senza drift, grilletti con corsa regolabile, vibrazione fine, 30 ore di batteria. Bluetooth e dongle 2.4 GHz, compatibile PC, Android e portatili.",
+      "immagine": "",
+      "icona": "🎮",
+      "visibile": true
+    },
+    {
+      "tipo": "fisico",
+      "id": "nova-elite",
+      "nome": "Nova Elite – Controller con palette posteriori",
+      "categoria": "controller",
+      "prezzo_centesimi": 12900,
+      "descrizione": "Palette posteriori, profili salvabili e custodia rigida inclusa.",
+      "descrizione_completa": "Versione pro del Nova: 4 palette posteriori rimappabili, 3 profili salvabili, stick intercambiabili, base di ricarica magnetica e custodia rigida.",
+      "immagine": "",
+      "icona": "🏆",
+      "visibile": true
+    },
+    {
+      "tipo": "fisico",
+      "id": "dojo",
+      "nome": "Dojo – Arcade stick a leve ottiche",
+      "categoria": "controller",
+      "prezzo_centesimi": 19900,
+      "descrizione": "Leva e 8 pulsanti ottici, scocca in alluminio, cavo USB-C removibile.",
+      "descrizione_completa": "Arcade stick con leva e pulsanti ottici da 0,1 ms, scocca in alluminio spazzolato, cavo USB-C removibile e vano porta-attrezzi. Per picchiaduro e retrogaming.",
+      "immagine": "",
+      "icona": "🥋",
+      "visibile": true
+    },
+    {
+      "tipo": "fisico",
+      "id": "echo",
+      "nome": "Echo – Cuffie gaming 7.1",
+      "categoria": "accessori",
+      "prezzo_centesimi": 8900,
+      "descrizione": "Audio surround 7.1, microfono staccabile con cancellazione del rumore.",
+      "descrizione_completa": "Cuffie chiuse con driver da 50 mm, audio surround 7.1 virtuale, microfono staccabile con cancellazione del rumore, archetto in memory foam. Jack 3,5 mm e USB-C.",
+      "immagine": "",
+      "icona": "🎧",
+      "visibile": true
+    },
+    {
+      "tipo": "fisico",
+      "id": "grip-pro",
+      "nome": "Grip Pro – Custodia rigida per portatile",
+      "categoria": "accessori",
+      "prezzo_centesimi": 3900,
+      "descrizione": "Custodia rigida con scomparti per caricatore, microSD e cuffie.",
+      "descrizione_completa": "Custodia rigida antiurto con interno in microfibra e scomparti per console, caricatore, schede e cuffie. Cerniera robusta e maniglia.",
+      "immagine": "",
+      "icona": "🧳",
+      "visibile": true
+    },
+    {
+      "tipo": "fisico",
+      "id": "pixel-512",
+      "nome": "Pixel – Scheda microSD 512 GB",
+      "categoria": "accessori",
+      "prezzo_centesimi": 4900,
+      "descrizione": "microSD A2 512 GB, letture fino a 190 MB/s, ideale per le portatili.",
+      "descrizione_completa": "Scheda microSD A2 da 512 GB, letture fino a 190 MB/s, scritture fino a 130 MB/s. Per espandere lo spazio delle console portatili.",
+      "immagine": "",
+      "icona": "💾",
+      "visibile": true
+    },
+    {
+      "tipo": "fisico",
+      "id": "titan",
+      "nome": "Titan – Supporto da scrivania per controller",
+      "categoria": "accessori",
+      "prezzo_centesimi": 2900,
+      "descrizione": "Supporto in metallo per due controller e un paio di cuffie.",
+      "descrizione_completa": "Supporto da scrivania in metallo nero opaco per due controller e un paio di cuffie, base antiscivolo, montaggio senza viti.",
+      "immagine": "",
+      "icona": "🪝",
+      "visibile": true
+    }
+  ]
+}

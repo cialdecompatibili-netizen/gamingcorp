@@ -1,6 +1,8 @@
 main:
   - title: "Home"
     url: /
+  - title: "Negozio"
+    url: /negozio/
   - title: "Tour"
     url: /tour/
   - title: "Su misura"

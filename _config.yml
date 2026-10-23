@@ -29,6 +29,9 @@ permalink: /:categories/:title/
 timezone:
 
 collections:
+  negozio:
+    output: true
+    permalink: /negozio/:name/
   products:
     output: false
     permalink: /shop/:name/
@@ -135,3 +138,9 @@ whatsapp: ""
 whatsapp_demo: true
 # Indirizzo del servizio che inoltra il modulo di contatto (worker). Vuoto = il modulo non appare.
 contact_endpoint: ""
+
+
+ecommerce: true
+# Ordini (SMOKE TEST, nessun pagamento): URL dell'Apps Script. Vuoto = il pulsante 'Invia richiesta d'ordine' resta spento.
+ordini:
+  tracker: ""
