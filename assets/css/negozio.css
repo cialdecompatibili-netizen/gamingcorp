@@ -88,6 +88,19 @@
 @media (hover: hover) and (min-width: 576px) {
   .nz-cartw:hover .nz-prev:not(:empty), .nz-cartw:focus-within .nz-prev:not(:empty) { display: block; }
 }
+/* RESPIRO DELL'ANTEPRIMA CARRELLO (popup sull'icona nel menu).
+   Perche' era "appiccicata": .nz-prev sta nel MENU, fuori da #negozio, quindi il pulsante .btn "Vai al carrello" non prendeva nessuno stile
+   (le regole .btn sono scoped su #negozio / #nz-carrello-pag / #nz-ordine-pag) e restava un link nudo attaccato al totale; in piu' ereditava
+   line-height e white-space dal menu. Qui ripristino tutto in modo esplicito. Non mettere transform su .nz-prev (lo usa carrello.js). */
+.nz-prev { margin-top: .4rem; padding: 1rem 1.15rem 1.1rem; min-width: 19rem; line-height: 1.45; font-size: .95rem; text-align: left; white-space: normal; }
+/* ponte invisibile sopra il popup: il mouse non esce dall'hover passando dall'icona al riquadro nonostante il margin-top */
+.nz-prev::before { content: ""; position: absolute; left: 0; right: 0; top: -.5rem; height: .5rem; }
+.nz-prev ul { margin: 0 0 .75rem; }
+.nz-prev li { gap: 1.25rem; padding: .4rem 0; border-bottom: 1px solid var(--nz-bordo); }
+.nz-prev li:last-child { border-bottom: 0; }
+.nz-prev-tot { margin: 0 0 1rem; padding-top: .8rem; font-size: 1rem; }
+.nz-prev .btn { display: block; box-sizing: border-box; width: 100%; padding: .65rem 1rem; border-radius: var(--nz-r); border: 1px solid var(--nz-tema); background: var(--nz-tema); color: #fff; text-align: center; text-decoration: none; font-weight: 600; line-height: 1.2; }
+.nz-prev .btn:hover, .nz-prev .btn:focus-visible { filter: brightness(1.12); color: #fff; text-decoration: none; }
 
 /* Carrello (/carrello/) e ordine a passi (/ordine/). Passo 2 (spedizione) compare solo con prodotti fisici (carrello.js). */
 .nz-steps { display: flex; gap: 1.5rem; list-style: none; padding: 0; margin: 0 0 1.5rem; border-bottom: 1px solid var(--nz-bordo); }
