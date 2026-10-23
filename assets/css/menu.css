@@ -151,14 +151,17 @@ a.nv__dd-item.active, a.nv__dd-item.active:visited, a.nv__dd-item.active:hover {
 .nv__bar--mid { width: 14px; margin-left: auto; }
 .nv__toggle.collapsed .nv__bar--mid { opacity: 1; }
 .nv__toggle:hover .nv__bar--mid { width: 22px; }
+/* ORDINE MOBILE (barra): logo | carrello (a sinistra) ... hamburger (all'estrema destra).
+   Il carrello prende margin-left:auto e spinge se' e le 3 lineette a destra; l'hamburger resta attaccato al bordo destro (margin-left:0).
+   Per invertire di nuovo: scambiare gli order 1/2 e i due margin-left tra .nv__cart e .nv__toggle (nei DUE blocchi: media query e .nv--compact). */
 @media (max-width: 899.98px) {
   .nv__brand { order: 0; }
-  .nv__toggle { order: 1; margin-left: auto; }
-  .nv__cart { order: 2; margin-left: 0; }
+  .nv__cart { order: 1; margin-left: auto; }
+  .nv__toggle { order: 2; margin-left: 0; }
   .nv__panel { order: 3; }
 }
-.nv--compact .nv__toggle { order: 1; margin-left: auto; }
-.nv--compact .nv__cart { order: 2; margin-left: 0; }
+.nv--compact .nv__cart { order: 1; margin-left: auto; }
+.nv--compact .nv__toggle { order: 2; margin-left: 0; }
 .nv--compact .nv__panel { order: 3; }
 /* Pulsante lingua: solo bandierina, senza codice IT/EN */
 .nv__lang-btn .nv__lang-code { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
