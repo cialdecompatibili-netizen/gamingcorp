@@ -1,0 +1,212 @@
+[
+ {
+  "id": "gite-guidate",
+  "nome": "Gite guidate in giornata",
+  "breve": "Un giorno in pullman con guida: Pompei, Orvieto, Tivoli, Castelli Romani, Tuscia.",
+  "foto": "gite-guidate",
+  "menu": "tour",
+  "modo": "persona",
+  "n": 5,
+  "da": 45
+ },
+ {
+  "id": "weekend-guidati",
+  "nome": "Weekend e viaggi guidati",
+  "breve": "Due o tre giorni con guida, pullman e hotel: Tuscia, Umbria, Napoli, Ponza.",
+  "foto": "weekend-guidati",
+  "menu": "tour",
+  "modo": "persona",
+  "n": 4,
+  "da": 189
+ },
+ {
+  "id": "neve-inverno",
+  "nome": "Neve e inverno",
+  "breve": "Giornate e weekend sulla neve con accompagnatore: Livata, Terminillo, Abruzzo.",
+  "foto": "neve-inverno",
+  "menu": "tour",
+  "modo": "persona",
+  "n": 3,
+  "da": 35
+ },
+ {
+  "id": "natale-capodanno",
+  "nome": "Natale, mercatini e feste",
+  "breve": "Mercatini di Natale, luminarie e presepi in pullman, in giornata o in weekend.",
+  "foto": "natale-capodanno",
+  "menu": "tour",
+  "modo": "persona",
+  "n": 3,
+  "da": 29
+ },
+ {
+  "id": "vino-sapori",
+  "nome": "Vino e sapori del Lazio",
+  "breve": "Cantine, frantoi e pranzi tipici tra Frascati, Castelli Romani e Tuscia.",
+  "foto": "vino-sapori",
+  "menu": "tour",
+  "modo": "persona",
+  "n": 3,
+  "da": 59
+ },
+ {
+  "id": "food-cucina",
+  "nome": "Food tour e corsi di cucina",
+  "breve": "Street food, mercati, birra artigianale e pasta fatta a mano a Roma.",
+  "foto": "food-cucina",
+  "menu": "tour",
+  "modo": "persona",
+  "n": 3,
+  "da": 59
+ },
+ {
+  "id": "mare-barca",
+  "nome": "Mare, barca e isole",
+  "breve": "Ponza, Circeo e Sabaudia: giornate al mare e giri in barca.",
+  "foto": "mare-barca",
+  "menu": "tour",
+  "modo": "persona",
+  "n": 2,
+  "da": 69
+ },
+ {
+  "id": "roma-di-notte",
+  "nome": "Roma di notte",
+  "breve": "Tour serali guidati per maggiorenni, con rientro organizzato.",
+  "foto": "roma-di-notte",
+  "menu": "tour",
+  "modo": "persona",
+  "n": 3,
+  "da": 29
+ },
+ {
+  "id": "roma-tour-guidati",
+  "nome": "Roma: tour guidati a piedi",
+  "breve": "Colosseo, Vaticano, catacombe e quartieri con una guida, in piccolo gruppo.",
+  "foto": "roma-tour-guidati",
+  "menu": "tour",
+  "modo": "persona",
+  "n": 4,
+  "da": 25
+ },
+ {
+  "id": "bici-natura",
+  "nome": "Bici, natura e trekking",
+  "breve": "E-bike sull'Appia Antica, laghi e passeggiate vicino a Roma.",
+  "foto": "bici-natura",
+  "menu": "tour",
+  "modo": "persona",
+  "n": 3,
+  "da": 39
+ },
+ {
+  "id": "famiglie",
+  "nome": "Famiglie e bambini",
+  "breve": "Tour a misura di bambino: giochi, caccia al tesoro e ritmi rilassati.",
+  "foto": "famiglie",
+  "menu": "tour",
+  "modo": "persona",
+  "n": 2,
+  "da": 25
+ },
+ {
+  "id": "terme-benessere",
+  "nome": "Terme e benessere",
+  "breve": "Giornate alle terme libere e nei borghi termali, per rilassarsi.",
+  "foto": "terme-benessere",
+  "menu": "tour",
+  "modo": "persona",
+  "n": 3,
+  "da": 49
+ },
+ {
+  "id": "outlet-shopping",
+  "nome": "Outlet e shopping",
+  "breve": "Pullman per gli outlet vicini a Roma, senza pensieri di parcheggio.",
+  "foto": "outlet-shopping",
+  "menu": "tour",
+  "modo": "persona",
+  "n": 3,
+  "da": 22
+ },
+ {
+  "id": "tour-privati",
+  "nome": "Tour privati",
+  "breve": "Guida e mezzo solo per voi, con data e programma a scelta.",
+  "foto": "tour-privati",
+  "menu": "misura",
+  "modo": "gruppo",
+  "n": 3,
+  "da": 320
+ },
+ {
+  "id": "crociere",
+  "nome": "Da Civitavecchia per crocieristi",
+  "breve": "Roma e dintorni in giornata, con rientro garantito prima della partenza della nave.",
+  "foto": "crociere",
+  "menu": "misura",
+  "modo": "persona",
+  "n": 3,
+  "da": 89
+ },
+ {
+  "id": "gruppi-scuole-aziende",
+  "nome": "Gruppi, scuole e aziende",
+  "breve": "Gite scolastiche, team building e uscite per circoli e associazioni, su preventivo.",
+  "foto": "gruppi-scuole-aziende",
+  "menu": "misura",
+  "modo": "preventivo",
+  "n": 3,
+  "da": null
+ },
+ {
+  "id": "pellegrinaggi",
+  "nome": "Pellegrinaggi e turismo religioso",
+  "breve": "Assisi, Cascia, Loreto: giornate e weekend con guida e momenti di preghiera.",
+  "foto": "pellegrinaggi",
+  "menu": "misura",
+  "modo": "persona",
+  "n": 3,
+  "da": 59
+ },
+ {
+  "id": "terza-eta",
+  "nome": "Gite per la terza età",
+  "breve": "Ritmo lento, soste frequenti e accompagnatore: borghi, laghi e terme.",
+  "foto": "terza-eta",
+  "menu": "misura",
+  "modo": "persona",
+  "n": 3,
+  "da": 39
+ },
+ {
+  "id": "eventi-concerti",
+  "nome": "Eventi, concerti e feste",
+  "breve": "Pullman per concerti e partite, feste di compleanno e addii al celibato e nubilato.",
+  "foto": "eventi-concerti",
+  "menu": "misura",
+  "modo": "preventivo",
+  "n": 3,
+  "da": 20
+ },
+ {
+  "id": "transfer-noleggio",
+  "nome": "Transfer e noleggio pullman",
+  "breve": "Transfer dagli aeroporti e noleggio di pullman con conducente, su preventivo.",
+  "foto": "transfer-noleggio",
+  "menu": "misura",
+  "modo": "preventivo",
+  "n": 3,
+  "da": null
+ },
+ {
+  "id": "guide-digitali",
+  "nome": "Guide e itinerari digitali",
+  "breve": "Itinerari con mappa da scaricare: Roma, borghi, laghi, mare e neve.",
+  "foto": "guide-digitali",
+  "menu": "tour",
+  "modo": "persona",
+  "n": 5,
+  "da": 9
+ }
+]

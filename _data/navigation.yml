@@ -1,0 +1,13 @@
+main:
+  - title: "Home"
+    url: /
+  - title: "Tour"
+    url: /tour/
+  - title: "Su misura"
+    url: /gruppi-e-aziende/
+  - title: "Come funziona"
+    url: /come-funziona/
+  - title: "Chi siamo"
+    url: /chi-siamo/
+  - title: "Contatti"
+    url: /contatti/

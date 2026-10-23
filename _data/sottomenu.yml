@@ -1,0 +1,85 @@
+# =====================================================================================
+# SOTTOMENU DEL SITO  (_data/sottomenu.yml)
+# Le voci PRINCIPALI stanno in _data/navigation.yml (le modifica anche admin > Menu).
+# Qui stanno solo le TENDINE. Ora le gestisce anche admin > Menu (bottone "Sottomenu"
+# su ogni voce): salvando dall'admin questo file viene riscritto, questo commento resta.
+#
+# COME SI USA
+#   1) la CHIAVE (prima dei due punti) deve essere IDENTICA al "title" della voce in
+#      navigation.yml: maiuscole, spazi e accenti compresi.
+#   2) sotto la chiave, una lista: ogni riga "- title" + "url" e' un link.
+#   3) "- divider: true" disegna una riga di separazione (mai in coda, mai due di fila).
+#   4) url interno SENZA nome repo: /servizi/x/  (NON /edilextreme4/servizi/x/).
+#      Link esterno: url completo, es. https://esempio.it
+#   5) un solo livello: niente sottomenu dentro un sottomenu.
+#   6) la voce padre apre solo la tendina, non e' cliccabile. Per un link alla pagina padre
+#      aggiungi come primo figlio "Tutti i ...".
+#
+# ESEMPIO COMPLETO (da copiare, cambiando i nomi):
+#
+#   Lavori svolti:                       <- stesso title di navigation.yml
+#     - title: "Ristrutturazioni"
+#       url: /lavori/ristrutturazioni/
+#     - title: "Facciate"
+#       url: /lavori/facciate/
+#     - divider: true
+#     - title: "Tutti i lavori"
+#       url: /lavori/
+#
+# ERRORI TIPICI: chiave diversa dal title (la tendina non compare); url con il nome repo
+# (link doppio); virgolette mancanti se il title contiene i due punti; divider in coda.
+# Per levare una tendina: cancella il blocco, la voce torna un link normale.
+# Documentazione del funzionamento: commento in testa a _includes/masthead.html.
+# =====================================================================================
+
+Tour:
+  - title: "Tutti i tour"
+    url: /tour/
+  - divider: true
+  - title: "Gite guidate in giornata"
+    url: /tour/gite-guidate/
+  - title: "Weekend e viaggi guidati"
+    url: /tour/weekend-guidati/
+  - title: "Neve e inverno"
+    url: /tour/neve-inverno/
+  - title: "Natale, mercatini e feste"
+    url: /tour/natale-capodanno/
+  - title: "Vino e sapori del Lazio"
+    url: /tour/vino-sapori/
+  - title: "Food tour e corsi di cucina"
+    url: /tour/food-cucina/
+  - title: "Mare, barca e isole"
+    url: /tour/mare-barca/
+  - title: "Roma di notte"
+    url: /tour/roma-di-notte/
+  - title: "Roma: tour guidati a piedi"
+    url: /tour/roma-tour-guidati/
+  - title: "Bici, natura e trekking"
+    url: /tour/bici-natura/
+  - title: "Famiglie e bambini"
+    url: /tour/famiglie/
+  - title: "Terme e benessere"
+    url: /tour/terme-benessere/
+  - title: "Outlet e shopping"
+    url: /tour/outlet-shopping/
+  - title: "Guide e itinerari digitali"
+    url: /tour/guide-digitali/
+
+Su misura:
+  - title: "Preventivo per gruppi"
+    url: /gruppi-e-aziende/
+  - divider: true
+  - title: "Tour privati"
+    url: /tour/tour-privati/
+  - title: "Da Civitavecchia per crocieristi"
+    url: /tour/crociere/
+  - title: "Gruppi, scuole e aziende"
+    url: /tour/gruppi-scuole-aziende/
+  - title: "Pellegrinaggi e turismo religioso"
+    url: /tour/pellegrinaggi/
+  - title: "Gite per la terza età"
+    url: /tour/terza-eta/
+  - title: "Eventi, concerti e feste"
+    url: /tour/eventi-concerti/
+  - title: "Transfer e noleggio pullman"
+    url: /tour/transfer-noleggio/

@@ -1,0 +1,4 @@
+{%- assign f = page.foto | default: "hero-roma" -%}
+<figure class="nv-fig"><img src="{{ '/assets/tour/' | append: f | append: '.jpg' | relative_url }}" alt="{{ page.title | escape }}" decoding="async" fetchpriority="high"></figure>
+<p class="nv-badges"><a href="{{ '/tour/' | append: page.cat | append: '/' | relative_url }}">{{ page.cat_nome }}</a><span>{{ page.prezzo }}</span><span>{% if page.euro %}Pre-iscrizione senza pagamento{% else %}Preventivo gratuito{% endif %}</span></p>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"TouristTrip","name":{{ page.title | jsonify }},"description":{{ page.breve | jsonify }},"image":{{ '/assets/tour/' | append: f | append: '.jpg' | absolute_url | jsonify }},"provider":{"@type":"TravelAgency","name":"Nomentum Viaggi","areaServed":"Lazio"}}</script>
