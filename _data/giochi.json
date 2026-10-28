@@ -2,6 +2,31 @@
   "_nota": "I giochi di GamingCorp. Li sviluppiamo noi (siamo lo studio). Nomi provvisori. Stato onesto: nessun gioco e' ancora uscito. Fonte UNICA di /giochi/ e delle schede gioco. 'modello' = come si guadagna. 'shop' = id prodotti in catalogo.json (vuoto = si gioca gratis, nessun acquisto principale).",
   "giochi": [
     {
+      "id": "operation-ironhold",
+      "nome": "Operation Ironhold",
+      "categoria": "Sparatutto",
+      "genere": "Sparatutto in prima persona",
+      "piattaforme": [
+        "Online"
+      ],
+      "stato": "Demo",
+      "modello": "Gratis",
+      "prezzo": "Gratis",
+      "colori": [
+        "#0e1116",
+        "#ec4899"
+      ],
+      "simbolo": "",
+      "breve": "Missione, mirino e piombo: uno sparatutto in prima persona che gira nel browser.",
+      "descrizione": "Imbraccia l'arma, schiva il fuoco nemico e porta a termine la missione. Sparatutto in prima persona giocabile direttamente nel browser.",
+      "monetizzazione": "Demo temporanea di terze parti (licenza MIT, forkabile). Immagini provvisorie: verranno sostituite da un nostro gioco.",
+      "shop": [],
+      "immagine": "/assets/images/giochi/operation-ironhold.jpg",
+      "demo_url": "https://starknightt.github.io/operation-ironhold/",
+      "credito": "StarKnightt/operation-ironhold (MIT)",
+      "azione": "Demo giocabile online."
+    },
+    {
       "id": "orbit-run",
       "nome": "Orbit Run",
       "genere": "Corsa infinita arcade",

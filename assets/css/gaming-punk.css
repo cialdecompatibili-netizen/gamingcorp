@@ -28,3 +28,12 @@
 @media(prefers-reduced-motion:reduce){.gc-hero::before,.gc-h1 em,.gc-art::after{animation:none!important}.gc-card:hover,.gc-pl:hover,.gc-buy:hover,.gc-btn:hover{animation:none!important}}
 
 .gc-img{display:block;width:100%;aspect-ratio:16/10;object-fit:cover;border-radius:16px 16px 0 0}.gc-det .gc-img{border-radius:20px;aspect-ratio:16/10}
+
+/* hero con screenshot sparatutto */
+.gc-hero-art.gc-hero-shot{display:block}
+.gc-hero-shot a{position:relative;display:block;border-radius:18px;overflow:hidden;border:2px solid #7c3cff;box-shadow:0 0 0 1px #22d3ee,0 0 24px rgba(124,60,255,.55),0 0 60px rgba(34,211,238,.25);animation:gcShotFlick 6s infinite}
+.gc-hero-shot img{display:block;width:100%;height:auto;aspect-ratio:16/10;object-fit:cover;transition:transform .6s}
+.gc-hero-shot a:hover img{transform:scale(1.04)}
+.gc-shot-tag{position:absolute;left:12px;bottom:12px;background:#fff;color:#0e1116;font:700 .78rem 'Inter',system-ui,sans-serif;letter-spacing:.08em;text-transform:uppercase;padding:.4rem .8rem;border-radius:999px;border:2px solid #ec4899}
+@keyframes gcShotFlick{0%,18%,22%,62%,64%,100%{opacity:1}20%,63%{opacity:.82}}
+@media(prefers-reduced-motion:reduce){.gc-hero-shot a{animation:none!important}.gc-hero-shot img{transition:none!important}}
