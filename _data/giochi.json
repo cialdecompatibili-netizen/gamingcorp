@@ -27,6 +27,31 @@
       "azione": "Demo giocabile online."
     },
     {
+      "id": "tosios",
+      "nome": "TOSIOS",
+      "categoria": "Browser game",
+      "genere": "Sparatutto multiplayer online",
+      "piattaforme": [
+        "Online"
+      ],
+      "stato": "Demo",
+      "modello": "Gratis",
+      "prezzo": "Gratis",
+      "colori": [
+        "#4f35e8",
+        "#22d3ee"
+      ],
+      "simbolo": "",
+      "breve": "Sparatutto 2D multiplayer: entra in una partita e sfida giocatori reali nel browser.",
+      "descrizione": "Arena top-down in tempo reale contro altri giocatori online. Nessuna installazione: apri la pagina e spara.",
+      "monetizzazione": "Demo temporanea di terze parti (licenza MIT, forkabile). Immagini provvisorie: verranno sostituite da un nostro gioco.",
+      "shop": [],
+      "immagine": "/assets/images/giochi/tosios.gif",
+      "demo_url": "https://tosios.online",
+      "credito": "halftheopposite/TOSIOS (MIT)",
+      "azione": "Multiplayer online: sfida giocatori reali."
+    },
+    {
       "id": "orbit-run",
       "nome": "Orbit Run",
       "genere": "Corsa infinita arcade",
