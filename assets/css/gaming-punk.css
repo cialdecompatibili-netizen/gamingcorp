@@ -1,0 +1,28 @@
+/* GamingCorp punk: cyberpunk neon su fondo BIANCO. Testo sempre scuro (leggibile), neon solo su bordi/glow/accenti. */
+:root{--np-v:#7c3cff;--np-c:#00c8ff;--np-m:#ff2bd6;--np-g:0 0 0 1px var(--np-c),0 0 14px rgba(0,200,255,.6),0 0 38px rgba(124,60,255,.35)}
+@keyframes np-flick{0%,17%,22%,58%,63%,100%{box-shadow:var(--np-g);opacity:1}19%,24%,60%{box-shadow:0 0 0 1px rgba(0,200,255,.25);opacity:.8}20%,61%{box-shadow:none;opacity:.7}}
+@keyframes np-text{0%,6%,9%,40%,43%,70%,100%{text-shadow:0 0 6px rgba(124,60,255,.55),0 0 22px rgba(0,200,255,.45);opacity:1}7%,41%,44%{text-shadow:none;opacity:.55}8%,42%{text-shadow:0 0 3px rgba(124,60,255,.3);opacity:.85}}
+@keyframes np-grid{from{background-position:0 0,0 0}to{background-position:0 48px,48px 0}}
+@keyframes np-scan{from{transform:translateY(-120%)}to{transform:translateY(420%)}}
+/* hero: griglia chiara animata, sfondo resta bianco */
+.gc-hero{position:relative;overflow:hidden}
+.gc-hero::before{content:"";position:absolute;inset:0;background-image:linear-gradient(rgba(124,60,255,.10) 1px,transparent 1px),linear-gradient(90deg,rgba(0,200,255,.12) 1px,transparent 1px);background-size:48px 48px;animation:np-grid 6s linear infinite;-webkit-mask-image:linear-gradient(#000 0,transparent 85%);mask-image:linear-gradient(#000 0,transparent 85%);pointer-events:none}
+.gc-hero-in{position:relative;z-index:1}
+.gc-h1 em{color:var(--np-v);animation:np-text 7s infinite}
+.gc-eyebrow::before{content:"// ";color:var(--np-m)}
+.gc-hero-art .gc-art,.gc-card .gc-art{position:relative}
+.gc-hero-art .gc-art::after,.gc-card .gc-art::after{content:"";position:absolute;left:0;right:0;top:0;height:30%;background:linear-gradient(transparent,rgba(255,255,255,.28),transparent);animation:np-scan 3.6s linear infinite;pointer-events:none}
+/* hover neon che sfarfalla */
+.gc-card,.gc-pl,.gc-buy,.gc-btn{transition:border-color .2s,transform .2s,background .2s,color .2s}
+.gc-card:hover,.gc-pl:hover,.gc-buy:hover{border-color:var(--np-c);animation:np-flick .95s steps(1) 1;box-shadow:var(--np-g)}
+.gc-btn-a:hover{background:#fff;color:var(--np-v);border-color:var(--np-v);box-shadow:0 0 14px rgba(124,60,255,.6),0 0 34px rgba(0,200,255,.4);animation:np-flick .95s steps(1) 1}
+.gc-btn-o:hover,.gc-btn-k:hover{border-color:var(--np-c);animation:np-flick .95s steps(1) 1}
+.gc-link:hover{border-color:var(--np-m);color:var(--np-m);text-shadow:0 0 8px rgba(255,43,214,.5)}
+.gc-badge{box-shadow:inset 0 0 0 1px rgba(124,60,255,.35)}
+.gc-pl .n{color:var(--np-m)}
+/* sezione "dark" resa chiara: regola del sito = sfondo bianco */
+.gc-dark{background:#fff;color:var(--gc-ink);border-top:2px solid var(--np-v);border-bottom:2px solid var(--np-c)}
+.gc-dark .gc-h2{color:var(--gc-ink)}.gc-dark .gc-lead{color:var(--gc-mut)}.gc-dark .gc-eyebrow{color:var(--np-v)}
+.gc-dark .gc-btn{background:var(--gc-ink);color:#fff;border-color:var(--gc-ink)}
+.gc-dark .gc-btn:hover{background:#fff;color:var(--np-v);border-color:var(--np-v)}
+@media(prefers-reduced-motion:reduce){.gc-hero::before,.gc-h1 em,.gc-art::after{animation:none!important}.gc-card:hover,.gc-pl:hover,.gc-buy:hover,.gc-btn:hover{animation:none!important}}
