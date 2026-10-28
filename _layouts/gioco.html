@@ -15,7 +15,7 @@ Se aggiungi un gioco: una voce in giochi.json + una pagina gioco-<id>.md con lay
 <div class="gc"><div class="gc-wrap gc-sec" style="padding-top:1rem">
 <p class="gc-eyebrow"><a href="{{ '/giochi/' | relative_url }}" style="color:inherit;text-decoration:none">&larr; Tutti i giochi</a></p>
 <div class="gc-det">
-  <div class="gc-art" style="--c1:{{ g.colori[0] }};--c2:{{ g.colori[1] }}" aria-hidden="true">{{ g.simbolo }}</div>
+  {% if g.immagine %}<img class="gc-img" src="{{ g.immagine | relative_url }}" alt="{{ g.nome }}">{% else %}<div class="gc-art" style="--c1:{{ g.colori[0] }};--c2:{{ g.colori[1] }}" aria-hidden="true">{{ g.simbolo }}</div>{% endif %}
   <div>
     <div class="gc-badges">{% for p in g.piattaforme %}<span class="gc-badge">{{ p }}</span>{% endfor %}<span class="gc-badge gc-badge-n">{{ g.stato }}</span><span class="gc-badge gc-badge-n">{{ g.modello }}</span></div>
     <style>.page__title{display:none}</style>
@@ -27,7 +27,7 @@ Se aggiungi un gioco: una voce in giochi.json + una pagina gioco-<id>.md con lay
       <tr><th>Stato</th><td>{{ g.stato }}</td></tr>
       <tr><th>Prezzo</th><td>{{ g.prezzo }}</td></tr>
     </table>
-    <p style="color:var(--gc-mut)">{{ g.azione }}</p>
+    <p style="color:var(--gc-mut)">{{ g.azione }}</p>{% if g.demo_url != "" and g.demo_url %}<p><a class="gc-btn gc-btn-a" href="{{ g.demo_url }}" target="_blank" rel="noopener">Gioca la demo</a></p>{% endif %}{% if g.credito %}<p style="color:var(--gc-mut);font-size:.85rem">Demo di terzi: {{ g.credito }}</p>{% endif %}
   </div>
 </div>
 <h2 class="gc-h2" style="margin-top:2.6rem">Il gioco</h2>

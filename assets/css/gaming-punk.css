@@ -26,3 +26,5 @@
 .gc-dark .gc-btn{background:var(--gc-ink);color:#fff;border-color:var(--gc-ink)}
 .gc-dark .gc-btn:hover{background:#fff;color:var(--np-v);border-color:var(--np-v)}
 @media(prefers-reduced-motion:reduce){.gc-hero::before,.gc-h1 em,.gc-art::after{animation:none!important}.gc-card:hover,.gc-pl:hover,.gc-buy:hover,.gc-btn:hover{animation:none!important}}
+
+.gc-img{display:block;width:100%;aspect-ratio:16/10;object-fit:cover;border-radius:16px 16px 0 0}.gc-det .gc-img{border-radius:20px;aspect-ratio:16/10}
